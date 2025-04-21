@@ -1,0 +1,67 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff5f5;
+}
+
+h1, .navbar-brand {
+  font-family: 'Pacifico', cursive;
+}
+
+.bg-custom {
+  background-color: #FFC6C6 !important;
+}
+
+.navbar-custom {
+  background-color: #FFB6B6 !important;
+}
+
+.btn-custom {
+  background-color: #FF8C94;
+  color: white;
+  border: none;
+}
+
+.btn-custom:hover {
+  background-color: #e77a80;
+  color: white;
+}
+
+.card-img-top {
+  height: 300px;
+  object-fit: cover;
+}
+
+.text-custom {
+  color: #4a1a1a;
+}
+
+.jumbotron-text {
+  padding: 2rem 1rem;
+}
+
+.carousel-caption {
+  background-color: rgba(255, 140, 148, 0.45);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+  color: white;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  transition: 0.3s;
+}
+
+footer {
+  background-color: #e77a80 !important;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+
+footer a:hover {
+  color: #ff1493;
+  text-decoration: underline;
+}
